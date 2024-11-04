@@ -1,0 +1,24 @@
+
+USE PAISES;
+
+SELECT * FROM T_PAISES
+
+/*CREATE TABLE T_PAISES(
+	ID INT AUTO_INCREMENT PRIMARY KEY,
+    NOMBRE VARCHAR(100) NOT NULL,
+    HABITANTES INT NOT NULL,
+    CAPITAL VARCHAR(100) NOT NULL,
+    MONEDA VARCHAR(50) NOT NULL
+);*/
+
+/*INSERT INTO T_PAISESID (nombre, habitantes, capital, moneda) VALUES
+('Argentina', 45376763, 'Buenos Aires', 'Peso argentino'),
+('Brasil', 212559417, 'Brasilia', 'Real brasileño'),
+('Chile', 19116209, 'Santiago', 'Peso chileno'),
+('España', 47351567, 'Madrid', 'Euro'),
+('México', 128932753, 'Ciudad de México', 'Peso mexicano'),
+('Japón', 126476461, 'Tokio', 'Yen'),
+('Canadá', 37742154, 'Ottawa', 'Dólar canadiense'),
+('Alemania', 83783942, 'Berlín', 'Euro'),
+('Francia', 65273511, 'París', 'Euro'),
+('India', 1380004385, 'Nueva Delhi', 'Rupia india');*/
